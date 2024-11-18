@@ -157,7 +157,7 @@ background-color: hsl(28, 86%, 49%);
     }
     
 
-    @media (max-width: 390px)
+    @media (min-width: 390px)
     {
         #calculator {
             max-width: 600px;
