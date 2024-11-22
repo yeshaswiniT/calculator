@@ -104,20 +104,21 @@ background-color: hsl(28, 86%, 49%);
 
     @media (max-width: 768px) {
         #calculator {
-            max-width: 600px;
+            max-width: 500px;
 
         }
     
         #display {
+
             font-size: 2rem;
-            padding: 10px;
+            padding: 10px ,10px;
             gap: 5px;
             
 
         }
     
         button {
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
     
         .reset-btn {
@@ -158,22 +159,22 @@ background-color: hsl(28, 86%, 49%);
 
     @media (max-width: 390px) {
         #calculator {
-            max-width: 300%; /* Make it fully responsive to the screen */
-            padding: 15px;   /* Add padding to improve spacing */
-            border-radius: 10px; /* Reduce border radius for smaller screens */
+            max-width: 400%; /* Make it fully responsive to the screen */
+            padding: 10px;   /* Add padding to improve spacing */
+            border-radius: 0px; /* Reduce border radius for smaller screens */
         }
     
         #display {
             font-size: 1.2rem; /* Adjust font size for better visibility */
             padding: 10px;     /* Simplify padding */
-            text-align: right; /* Align text to the right for readability */
+            text-align: left; /* Align text to the right for readability */
         }
     
         button {
             font-size: 0.9rem; /* Slightly reduce button font size */
-            width: 70px;       /* Adjust button size to fit the smaller screen */
+            width: 50px;       /* Adjust button size to fit the smaller screen */
             height: 70px;
-            border-radius: 8px;
+            border-radius: 5px;
         }
     
         .reset-btn {
@@ -186,7 +187,7 @@ background-color: hsl(28, 86%, 49%);
         }
     
         #reset-btn {
-            gap: 10px; /* Ensure enough spacing between Reset and Clear */
+            gap: 8px; /* Ensure enough spacing between Reset and Clear */
         }
     }
     
